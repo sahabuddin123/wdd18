@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+.p{
+			font-variant: normal;
+			font-style: italic;
+			font-size: 30px;
+			font-weight: 400;
+			/*font-family: 'Raleway', sans-serif;*/
+			font-family: 'Langar', cursive;
+		}
+		.p2{
+			font-variant: normal;
+			/*font-style: italic;*/
+			font-size: 20px;
+			font-weight: bold;
+			/*font-family: 'Bangla', Arial, sans-serif !important;*/
+			 font-family: 'CharuChandanHardStroke', Arial, sans-serif !important;
+		}
+
+		.p3{
+			font-size: 30px;
+			text-align: right;
+			font-family: 'Aref Ruqaa', serif;
+		}
+		.btn{
+			height: 20px;
+			width: 120px;
+			padding: 10px;
+			border: 1px solid black;
+			text-decoration: none;
+			color: white;
+			background: #ff4f81;
+			transition: .5s ease-out;
+		}
+		.btn:hover{
+			background: white;
+			color: #ff4f81;
+			border-color: #ff4f81;
+			transition: .5s ease-in;
+		}
+		.btn:focus{
+			background-color: green;
+			color: white;
+			border-color: red;
+		}
